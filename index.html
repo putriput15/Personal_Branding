@@ -3,65 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Branding - PUTRI</title>
-     <link rel="stylesheet" href="styles.css"> 
-  
+    <title>My Personal Branding</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Nama Anda</h1>
-        <p>Alamat: BENGKONG SADAI, Kepulauan Riau </p>
-        <p>Email: putriputfifteen15@gmail.com</p>
-        <p>Deskripsi Singkat: Saya adalah seorang mahasiswa teknik informatika</p>
-        <p>
-            <a href="[LinkedIn URL]">LinkedIn</a> | 
-            <a href="[GitHub URL]">GitHub</a>
-        </p>
+        <div class="container">
+            <div class="header-content">
+                <h1>PUTRI</h1>
+                <p class="subtitle">Web Developer & UI/UX Designer</p>
+                <div class="social-icons">
+                    <a href="https://github.com/putriput15" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/putri-putri-4a9057358" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:putriputfifteen15@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="education">
-        <h2>Riwayat Pendidikan</h2>
-        <ul>
-            <li>
-                <strong>Nama Sekolah Terakhir</strong> - [Jurusan] <br>
-                Tahun Masuk: [Tahun Masuk] - Tahun Kelulusan: [Tahun Kelulusan]
-            </li>
-            <!-- Tambahkan pendidikan lainnya di sini -->
-        </ul>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>
+                Halo! Saya mahasiswa Teknik Informatika yang senang belajar cara membuat website dan desain tampilan aplikasi. Setelah lulus SMA, saya sangat tertarik dengan dunia teknologi. Sekarang saya sedang belajar berbagai bahasa pemrograman dan tools untuk membuat website dan aplikasi yang berguna dan keren. Saya senang belajar hal-hal baru dan cepat beradaptasi dengan teknologi terbaru. Tujuan saya adalah menjadi developer yang handal dan bisa membuat produk digital yang bermanfaat bagi banyak orang.
+            </p>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Alamat: Bengkong Sadai, Batam, Kepulauan Riau</p>
+                <p><i class="fas fa-envelope"></i> Email: putriputfifteen15@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Telepon: 089643524237</p>
+            </div>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Riwayat Pengerjaan Proyek</h2>
-        <ul>
-            <li>[APLIKASI E-VOTING BERBASIS WEB] - Deskripsi singkat tentang proyek.</li>
-            <!-- Tambahkan proyek lainnya di sini -->
-        </ul>
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2>Pendidikan</h2>
+            
+            <div class="education-item">
+                <h3>POLITEKNIK NEGERI BATAM</h3>
+                <p class="education-date">2024 - Sekarang</p>
+                <p>D4 Teknologi Rekayasa Perangkat Lunak</p>
+                
+            </div>
+            
+            <div class="education-item">
+                <h3>SMA NEGERI 8 BATAM </h3>
+                <p class="education-date">2021 - 2024</p>
+                <p>IPA</p>
+            </div>
+            
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>Skillset</h2>
-        <h3>Programming Languages</h3>
-        <ul>
-            <li>[Bahasa Pemrograman 1]</li>
-            <li>[Bahasa Pemrograman 2]</li>
-            <!-- Tambahkan bahasa pemrograman lainnya di sini -->
-        </ul>
-        <h3>Tools</h3>
-        <ul>
-            <li>[Alat 1]</li>
-            <li>[Alat 2]</li>
-            <!-- Tambahkan alat lainnya di sini -->
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>[Soft Skill 1]</li>
-            <li>[Soft Skill 2]</li>
-            <!-- Tambahkan soft skill lainnya di sini -->
-        </ul>
-    </section>
+   <!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="container">
+        <h2>Proyek</h2>
+        <p>Berikut ini adalah proyek yang telah saya kerjakan:</p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Aplikasi E-voting Berbasis Web</h3>
+                    <p>Proyek PBL Semester 1 - Aplikasi E-voting Berbasis Web</p>
+                    <p>Teknologi: HTML/CSS, JavaScript, PHP, MySQL</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; [Tahun] Nama Anda. Semua hak dilindungi.</p>
-    </footer>
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2>Keterampilan</h2>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <p>HTML/CSS, JavaScript, PHP, Python</p>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Framework & Tools</h3>
+                <p> VS Code, Figma, Bootstrap, Git, Laravel, React.js, Node.js</p>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <p>Komunikasi, Teamwork, Problem Solving, Manajemen Waktu, Kepemimpinan</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Putput. All Rights Reserved.</p>
+        <div>
+            <a href="https://github.com/putriput15" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/putri-putri-4a9057358" target="_blank">LinkedIn</a>
+            <a href="mailto:putriputfifteen15@gmail.com">Email</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Simple JavaScript to add smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 </body>
 </html>
