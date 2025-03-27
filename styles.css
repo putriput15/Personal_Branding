@@ -146,7 +146,7 @@ nav {
 }
 
 .profile-photo {
-    width: 25%;
+    width: 65%;
     max-width: 100px;
     border-radius: 50%;
     object-fit: cover;
