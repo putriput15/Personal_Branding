@@ -147,7 +147,7 @@ nav {
 
 .profile-photo {
     width: 65%;
-    max-width: 100px;
+    max-width: 1000px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid var(--x-accent-color);
