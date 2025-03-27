@@ -3,131 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Branding</title>
+    <title>PUTRI - Web Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css"> 
     
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
+    <!-- Navigation -->
+    <nav>
         <div class="container">
-            <div class="header-content">
-                <h1>PUTRI</h1>
-                <p class="subtitle">Web Developer & UI/UX Designer</p>
-                <div class="social-icons">
-                    <a href="https://github.com/putriput15" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/putri-putri-4a9057358" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:putriputfifteen15@gmail.com"><i class="fas fa-envelope"></i></a>
+            <div class="nav-content">
+                <div class="logo">PUTRI</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hello">HELLO</p>
+                    <h1>I'm PUTRI</h1>
+                    <p class="subtitle">a Web Developer</p>
+                    <p class="description">
+                        Welcome to my web developer portfolio! I'm PUTRI, a skilled and 
+                        creative web developer with a passion for creating beautiful, 
+                        responsive, and user-friendly websites.
+                    </p>
+                   
+                </div>
+                
+                <div class="hero-image">
+                    <img src="image/foto-profil.jpg" alt="PUTRI" class="profile-photo">
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section id="about" class="about">
         <div class="container">
-            <h2>Tentang Saya</h2>
+            <h2>About Me</h2>
             <p>
-                Halo! Saya mahasiswa Teknik Informatika yang senang belajar cara membuat website dan desain tampilan aplikasi. Setelah lulus SMA, saya sangat tertarik dengan dunia teknologi. Sekarang saya sedang belajar berbagai bahasa pemrograman dan tools untuk membuat website dan aplikasi yang berguna dan keren. Saya senang belajar hal-hal baru dan cepat beradaptasi dengan teknologi terbaru. Tujuan saya adalah menjadi developer yang handal dan bisa membuat produk digital yang bermanfaat bagi banyak orang.
+                Hello, I'm an Informatics Engineering student who loves learning how to build websites and design apps. After graduating from high school, I am very interested in the world of technology. Now I'm learning various programming languages and tools to create useful and cool websites and applications. I love to learn new things and adapt quickly to the latest technology. My goal is to become a reliable developer and create digital products that are useful for many people.
+
             </p>
             <div class="contact-info">
-                <p><i class="fas fa-map-marker-alt"></i> Alamat: Bengkong Sadai, Batam, Kepulauan Riau</p>
-                <p><i class="fas fa-envelope"></i> Email: putriputfifteen15@gmail.com</p>
-                <p><i class="fas fa-phone"></i> Telepon: 089643524237</p>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Location: Batam, Indonesia</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: putriputfifteen15@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone: 089643524237</span>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section class="education" id="education">
+    <section id="resume" class="education">
         <div class="container">
-            <h2>Pendidikan</h2>
-            
-            <div class="education-item">
-                <h3>POLITEKNIK NEGERI BATAM</h3>
-                <p class="education-date">2024 - Sekarang</p>
-                <p>D4 Teknologi Rekayasa Perangkat Lunak</p>
-                
+            <h2>Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>Politeknik Negeri Batam</h3>
+                        <p class="education-date">2024 - Present</p>
+                        <p>D4 Software Engineering Technology</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>SMA Negeri 8 Batam</h3>
+                        <p class="education-date">2021 - 2024</p>
+                        <p>IPA</p>
+                    </div>
+                </div>
             </div>
-            
-            <div class="education-item">
-                <h3>SMA NEGERI 8 BATAM </h3>
-                <p class="education-date">2021 - 2024</p>
-                <p>IPA</p>
-            </div>
-            
         </div>
     </section>
 
-   <!-- Projects Section -->
-<section class="projects" id="projects">
-    <div class="container">
-        <h2>Proyek</h2>
-        <p>Berikut ini adalah proyek yang telah saya kerjakan:</p>
-        
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-content">
-                    <h3>Aplikasi E-voting Berbasis Web</h3>
-                    <p>Proyek PBL Semester 1 - Aplikasi E-voting Berbasis Web</p>
-                    <p>Teknologi: HTML/CSS, JavaScript, PHP, MySQL</p>
+    <!-- Projects Section -->
+    <section id="portfolio" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Web-based E-voting Application</h3>
+                        <p>Project for Semester 1 - Web-based E-voting Application</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Skills Section -->
-<section class="skills" id="skills">
-    <div class="container">
-        <h2>Keterampilan</h2>
-        
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Programming Languages</h3>
-                <p>HTML/CSS, JavaScript, PHP, Python</p>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Framework & Tools</h3>
-                <p> VS Code, Figma, Bootstrap, Git, Laravel, React.js, Node.js</p>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Soft Skills</h3>
-                <p>Komunikasi, Teamwork, Problem Solving, Manajemen Waktu, Kepemimpinan</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="skills-enhanced">
+                <div class="skills-enhanced-header">
+                    <h2>My Professional Skills</h2>
+                </div>
+                <div class="skills-enhanced-content">
+                    <div class="skills-enhanced-category">
+                        <h3>Programming Languages</h3>
+                        <ul class="skills-enhanced-list">
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">H</div>
+                                <div class="skill-name">HTML/CSS</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">J</div>
+                                <div class="skill-name">JavaScript</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">P</div>
+                                <div class="skill-name">PHP</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">PY</div>
+                                <div class="skill-name">Python</div>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills-enhanced-category">
+                        <h3>Frameworks & Tools</h3>
+                        <ul class="skills-enhanced-list">
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">VS</div>
+                                <div class="skill-name">VS Code</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">F</div>
+                                <div class="skill-name">Figma</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">L</div>
+                                <div class="skill-name">Laravel</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">G</div>
+                                <div class="skill-name">Git</div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+    
+                    <div class="skills-enhanced-category">
+                        <h3>Soft Skills</h3>
+                        <ul class="skills-enhanced-list">
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">K</div>
+                                <div class="skill-name">Komunikasi</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">T</div>
+                                <div class="skill-name">Teamwork</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">P</div>
+                                <div class="skill-name">Problem Solving</div>
+                            </li>
+                            <li class="skills-enhanced-list-item">
+                                <div class="skill-icon">M</div>
+                                <div class="skill-name">Manajemen Waktu</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <p>&copy; 2025 Putput. All Rights Reserved.</p>
-        <div>
-            <a href="https://github.com/putriput15" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/putri-putri-4a9057358" target="_blank">LinkedIn</a>
-            <a href="mailto:putriputfifteen15@gmail.com">Email</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/putriput15" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/putri-putri-4a9057358" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:putriputfifteen15@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 PUTPUT. All Rights Reserved.</p>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<script>
-    // Simple JavaScript to add smooth scrolling
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
-    });
-</script>
+    </script>
 </body>
 </html>
